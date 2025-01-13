@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SKD_t8_contact</title>
+    <style>
+        /* body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.title_bar {
+    background-color: #b4cef0;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+}
+/* BRTA logo */
+img {
+    padding: 5px;
+    width: 100px;
+  }
+
+/* Navigation */
+.nav_bar {
+    background-color: #0a2052;
+    overflow: hidden;
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    text-align: center;
+}
+}
+
+/* Scrolling text */
+.scrolling-text {
+    background-color: #f4f4f4;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scrolling-text p {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #333;
+    animation: scroll-text 9s linear infinite;
+}
+
+@keyframes scroll-text {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* Main content */
+main {
+    padding: 32px;
+    background-color: #f9f9f9;
+}
+.login-container{
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Footer */
+footer {
+    background-color: #0e0d0d;
+    color: white;
+    text-align: center;
+    padding: 10px ;
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="title_bar">
+        <header>
+            <img src="brta_logo.png" alt="brta_logo">
+            <h1>Bangladesh Road and Transport Authority</h1>
+        </header>
+    </div>    
+    <div class="nav_bar">
+        <nav>
+            <div class="nav_list">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="">Register</a></li>
+                </ul>
+            </div>  
+        </nav>
+    </div>
+    
+    <marquee>Hotline number: 16107, 09610 990 998. SUNDAY - THURSDAY (9.00 AM - 5.00 PM).</marquee>
+    
+    <main>
+        <section align="middle">
+            <form>
+                Name: <br> <input type="text"><br><br>
+                Email: <br> <input type="email"><br><br>
+                Date of Birth: <br> <input type="date"><br><br>
+                Phone Number: <br> <input type="number"><br><br>
+                Password: <br> <input type="password"><br><br>
+                <button type="submit" class="btn btn-primary w-100">Register</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 All rights reserved for future.</p>
+    </footer>
+</body>
+</html>
